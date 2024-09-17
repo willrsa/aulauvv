@@ -1,0 +1,85 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkred;
+    padding: 30px;
+}
+header img{
+    border: 50%;
+}
+header h1{
+    background-color: darkred;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img#principal{
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+img#viagem{
+    width: 200px;
+    margin: 40px;
+    border-radius: 100%;
+}
+img#eu{
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+img#WillNaNeve{
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 30px;
+   
+}
+li{
+    font-weight: bolder;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: yellow;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+}
+p#sobremim{
+    background-color: rgb(255, 0, 0);
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+p#sobreasviagens{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 227, 236);
+}
