@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2cd11;
+    color: #000000;
+}
+img#WillMain{
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+} 
+img#WillTravel1{
+    width: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+img#WillFormatura{
+    width: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+img#WillJiesd{
+    width: 200px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+header {
+    background-color: #23c73e;
+    color: #000000;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sobre {
+    background-color: #e2cd11;
+    text-align: center;
+}
+
+.vida {
+    background-color: #23c73e;
+}
+
+.vida-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.vida-item {
+    background-color: #23c73e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contato {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
